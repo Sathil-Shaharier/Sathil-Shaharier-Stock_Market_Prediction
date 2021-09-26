@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'home/css/contact.css'%}">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<ul>
+				<li><a href="{% url 'landing-page' %}">Home</a></li>
+				<li><a href="{% url 'about-page' %}">About</a></li>
+				<li><a href="{% url 'services-page' %}">Services</a></li>
+			    <li class="active"><a href="{% url 'contact-page' %}">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="details" style="margin-left: 100px;">
+			<h1 style="font-family: sans-serif; text-decoration: none; font-size: 40px; padding-top: 20px; padding-bottom: 40px">Contacts</h1>
+                  
+            <h2 style="font-family: monospace; font-size: 30px; padding-bottom: 10px;">Shaharier Hoque Sathil<br></h2>
+            <h3 style="font-family: cursive; margin-bottom: 50px;">Email: shaharier.hoque@northsouth.edu</h3>
+			       
+			<h2 style="font-family: monospace; font-size: 30px; padding-bottom: 10px;">Md Tasbul Hasan<br></h2>
+			<h3 style="font-family: cursive; margin-bottom: 50px;">Email: tasbiul.hasan@northsouth.edu</h3>
+			       
+			<h2 style="font-family: monospace; font-size: 30px; padding-bottom: 10px;">Pranab Roy<br></h2>
+			<h3 style="font-family: cursive; margin-bottom: 50px;">Email: Pranab.roy@northsouth.edu</h3>
+			       
+			<h2 style="font-family: monospace; font-size: 30px; padding-bottom: 10px;">Sahadat Hossain Nirob <br></h2>
+			<h3 style="font-family: cursive; margin-bottom: 50px;">Email: sahadat.nirob@northsouth.edu</h3>
+		</div>
+	</header>
+</body>
+</html>
